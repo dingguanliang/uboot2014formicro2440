@@ -1,0 +1,1 @@
+#define WT_OFF() (WRITED(WTCON, READD(WTCON) & ~BIT5))

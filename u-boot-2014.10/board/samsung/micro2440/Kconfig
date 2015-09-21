@@ -1,0 +1,18 @@
+if TARGET_MICRO2440
+
+config SYS_CPU
+	default "arm920t"
+
+config SYS_BOARD
+	default "micro2440"
+
+config SYS_VENDOR
+	default "samsung"
+
+config SYS_SOC
+	default "s3c2440"
+
+config SYS_CONFIG_NAME
+	default "micro2440"
+
+endif
