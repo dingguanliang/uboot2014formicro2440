@@ -22,6 +22,8 @@ SECTIONS
 		*(.__image_copy_start)
 		*(.vectors)
 		CPUDIR/start.o (.text*)
+		board/samsung/micro2440/lowlevel_init.o (.text*)
+		board/samsung/micro2440/nand_boot.o (.text*)
 		*(.text*)
 	}
 

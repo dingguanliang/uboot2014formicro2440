@@ -598,6 +598,8 @@ c_flags := $(KBUILD_CFLAGS) $(cpp_flags)
 # U-Boot objects....order is important (i.e. start must be first)
 
 head-y := $(CPUDIR)/start.o
+head-y += board/samsung/micro2440/lowlevel_init.o
+head-y += board/samsung/micro2440/nand_boot.o
 head-$(CONFIG_4xx) += arch/powerpc/cpu/ppc4xx/resetvec.o
 head-$(CONFIG_MPC85xx) += arch/powerpc/cpu/mpc85xx/resetvec.o
 

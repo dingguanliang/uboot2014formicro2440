@@ -6,3 +6,4 @@
 
 ## By: John.Ding
 ## Website: <http://www.guanliang.tk>
+## E-mail: <john-ding@outlook.com>

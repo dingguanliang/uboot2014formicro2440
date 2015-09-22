@@ -50,7 +50,7 @@ nand:
 
 	// nor or mem boot.
 nom:			
-	adr	r0, reset
+	ldr	r0, =_start
 	ldr	r1, =__image_copy_start	
 	cmp	r0, r1			
 	beq	stack_setup
